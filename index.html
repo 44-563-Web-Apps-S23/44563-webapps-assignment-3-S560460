@@ -25,6 +25,58 @@
             <li>Royal Challegers Banglore</li>
         </ul>
         <a href = "aboutme.html">Manoj Vamanaguntla</a>
+        <h2>My Bucketlist Countries</h2>
+        <p>
+            I would like to visit this countries that are mentioned in the below table.
+        </p>
+        <hr>
+        <table>
+            <tr>
+                <th>Name_of_the_Country</th>
+                <th>Visiting Reason</th>
+                <th>Days to stay</th>
+            </tr>
+            <tr>
+                <td>Italy</td>
+                <td>It's best for its 'Eternal City' The timeless city of Rome is just bursting with incredible sites' </td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Switzerland</td>
+                <td>Best for hiking Experience</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>France</td>
+                <td>Best travel back in time place and to explore beautifully preserved historic towns</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>Best for its traditions and tasty food</td>
+                <td>60</td>
+            </tr>
+        </table>
+        <hr>
+        <h5>Snippet</h5>
+        <blockquote cite ="https://stackoverflow.com/questions/2790899/how-to-check-if-a-string-starts-with-a-specified-string">
+            Test if String Starts With Certain Characters in PHP<br>
+            <a href="https://stackoverflow.com/questions/2790899/how-to-check-if-a-string-starts-with-a-specified-string">reference to stack overflow</a>
+        </blockquote>
+        <h5>code</h5>
+        <pre>
+            {
+                ?php   
+                    function startsWith($string, $startString) { 
+                    $len = strlen($startString); 
+                    return (substr($string, 0, $len) === $startString); 
+                    } 
 
+                    // usage
+                    echo startsWith("cat", "c"); // true
+                    echo startsWith("dog", "x"); // false
+                ?> 
+            }
+        </pre>
 </body>
 </html>
